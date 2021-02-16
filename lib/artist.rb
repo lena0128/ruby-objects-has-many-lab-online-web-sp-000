@@ -13,6 +13,8 @@ def songs
 end
 
 def add_song(song)
+  @songs << song
+  song.artist.name = self
 end
 
 @@all = []
