@@ -9,7 +9,7 @@ def initialize(name)
 end
 
 def songs
-  @songs << song
+  @songs
 end
 
 def add_song(song)
