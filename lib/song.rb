@@ -18,7 +18,12 @@ def self.all
 end
 
 def artist_name
+if !self.artist.name
+  return nil
+end
 self.artist.name
+end
+
 end
 
 end
