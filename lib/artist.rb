@@ -9,10 +9,11 @@ def initialize(name)
 end
 
 def songs
-  @songs
+  @songs << song
 end
 
 def add_song(song)
+end
 
 @@all = []
 
