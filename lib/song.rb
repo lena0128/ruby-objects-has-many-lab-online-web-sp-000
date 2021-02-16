@@ -20,10 +20,9 @@ end
 def artist_name
   self.artist.name
 
-if self.artist.name == nil
-  return nil
-end
-
+  if !self.artist.name
+  nil
+  end
 end
 
 end
