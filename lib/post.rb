@@ -22,10 +22,10 @@ def author
 end
 
 def author_name
-  if self.arthor.name == nil
+  if self.author.name == nil
     return nil
   end
-  self.arthor.name
+  self.author.name
 end
 
 end
