@@ -17,4 +17,8 @@ def save
   @@all << self
 end
 
+def author
+ self.author
+end
+
 end
