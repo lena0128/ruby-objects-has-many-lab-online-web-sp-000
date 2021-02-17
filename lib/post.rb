@@ -17,9 +17,7 @@ def save
   @@all << self
 end
 
-def author
- self.author
-end
+
 
 def author_name
   if self.author.name == nil
