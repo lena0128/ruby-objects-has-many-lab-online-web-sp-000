@@ -4,6 +4,7 @@ class Post
 def initialzie(title)
   @title = title
   @author = author
+  save
 end
 
 @@all = []
